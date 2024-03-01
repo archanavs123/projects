@@ -1,6 +1,8 @@
 from django.db import models
 
 # Create your models here.
-class Member(models.Model):
+class Signin(models.Model):
   username = models.CharField(max_length=255)
   password = models.CharField(max_length=255)
+
+  
